@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5459f02-7549-4c54-8e4e-c7e322da4bbb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/JDBCutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coldwarm/mysql/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/coldwarm/mysql/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/coldwarm/mysql/Demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/coldwarm/mysql/Demo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/coldwarm/mysql/Demo02.class" afterDir="false" />
-    </list>
+    <list default="true" id="c5459f02-7549-4c54-8e4e-c7e322da4bbb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCutil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JDBCutil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/coldwarm/mysql/JDBCutil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -105,6 +94,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,7 +142,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -239,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01">
+  <component name="RunManager" selected="Application.Demo02">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coldwarm.mysql.Demo01" />
       <module name="MysqlDemo" />
@@ -333,10 +331,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Demo04" />
         <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -353,15 +351,15 @@
       <workItem from="1526809528303" duration="2931000" />
       <workItem from="1526998676760" duration="7783000" />
       <workItem from="1527007751136" duration="76000" />
-      <workItem from="1527083364449" duration="7311000" />
+      <workItem from="1527083364449" duration="7388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18101000" />
+    <option name="totallyTimeSpent" value="18178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -373,7 +371,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2287234" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2287234" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -534,6 +532,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
