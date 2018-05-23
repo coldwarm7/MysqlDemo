@@ -16,11 +16,10 @@ public class Demo02 {
 
 
     public static void transaction() throws SQLException {
-        Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/testjdbc?autoReconnect=true&useSSL=true","root","123456");
+        Connection coon = new JDBCutil().getMysqlCoon();
         try {
             String sql1 = "insert into t_user (username,pwd,regTime) values (?,?,?)";
-            PreparedStatement ps1 = conn.prepareStatement(sql1);
+            PreparedStatement ps1 = coon.prepareStatement(sql1);
             ps1.setString(1, "coldwarm000");
             ps1.setString(2, "coldwarm111");
             Timestamp timestamp1 = new Timestamp(System.currentTimeMillis()); //需要将long类型转换为Timestamp类型
@@ -28,7 +27,7 @@ public class Demo02 {
             ps1.execute();
 
             String sql2 = "insert into t_user (username,pwd,regTime) values (?,?,?)";
-            PreparedStatement ps2 = conn.prepareStatement(sql2);
+            PreparedStatement ps2 = coon.prepareStatement(sql2);
             ps2.setString(1, "cishu");
             ps2.setString(2, "coldwarm111");
             Timestamp timestamp2 = new Timestamp(System.currentTimeMillis());
@@ -37,7 +36,7 @@ public class Demo02 {
         } catch (SQLException e) {
             e.printStackTrace();
             try {
-                conn.rollback();
+                coon.rollback();
             }catch (SQLException e1){
                 e1.printStackTrace();
             }

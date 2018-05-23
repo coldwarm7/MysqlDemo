@@ -10,10 +10,8 @@ import java.sql.*;
 public class Demo01 {
 
     public static void main(String[] args) throws SQLException {
-        Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/testjdbc?autoReconnect=true&useSSL=true","root","123456");
-
-//        add(conn);
+        Connection coon = new JDBCutil().getMysqlCoon();
+//        add(coon);
 
 //        delete(conn);
 
